@@ -1,0 +1,3 @@
+[submodule "Plugins/HorizonVRPlugin"]
+	path = Plugins/HorizonVRPlugin
+	url = https://horizon-studio.visualstudio.com/DefaultCollection/HorizonPlugin/_git/HorizonVRPlugin
