@@ -1,4 +1,6 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Created by dorgon, All Rights Reserved.
+// email: dorgonman@hotmail.com
+// blog: dorgon.horizon-studio.net
 
 #include "HorizonVRDemo.h"
 #include "Modules/ModuleManager.h"
