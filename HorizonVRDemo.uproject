@@ -10,10 +10,10 @@
 			"LoadingPhase": "Default"
 		}
 	],
-    "Plugins": [
-        {
-            "Enabled": true,
-            "Name": "HorizonVRPlugin"
-        }
-    ]
+	"Plugins": [
+		{
+			"Name": "HorizonVRPlugin",
+			"Enabled": true
+		}
+	]
 }
