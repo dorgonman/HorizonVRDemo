@@ -39,20 +39,25 @@ Please Set DefaultPawnClass in GameMode to BP Class Plugins\HorizonVRPlugin\Cont
 -----------------------
 Technical Details
 -----------------------  
+Features: 
+  Features in Engine's GoogleVRController Plugin also available in HTC Vive and Oculus Rift  
+  Auto detect Current HMD device and spawn corresponding MotionControllerActor  
 
-List of Modules: HorizonVR (Runtime)  
+Code Modules: HorizonVR (Runtime) 
 
-Intended Platform: All Platforms  
-
-Platforms Tested: Windows, Android
-
-Demo Project: https://github.com/dorgonman/HorizonVRDemo  
-
-DemoVideo: 
+Number of Blueprints: 6  
+Number of C++ Classes: 11  
+Network Replicated: No  
+Supported Development Platforms: Windows, Android  
+Supported Target Build Platforms: Windows, Android  
+Documentation: https://github.com/dorgonman/HorizonVRDemo   
+Example Project: https://github.com/dorgonman/HorizonVRDemo  
 
 -----------------------
 What does your plugin do/What is the intent of your plugin
 -----------------------  
+
+Demo Video: 
 
 This Plugin ported the functions from [GoogleVRController Plugin](https://docs.unrealengine.com/latest/INT/Platforms/GoogleVR/Daydream/) in the engine and make sure laser feature and other Pointer callback also Support HTC Vive, Oculus Rift, Google Daydream and other VR devices.  
 
