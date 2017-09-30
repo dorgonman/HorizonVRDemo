@@ -33,8 +33,9 @@ User Guide
 
 Please Set DefaultPawnClass in GameMode to BP Class Plugins\HorizonVRPlugin\Content\Blueprints\Character\BP_HorizonVRCharacter, or set the character's Auto Possess Player to Player0 after drop to the map. This Character will detect your connected VR device and spawn the MotionControllerActor for that device. If you want to test your VR controller interaction, use [Google Controller Emulator](https://developers.google.com/vr/daydream/controller-emulator) is a good idea, if you has a daydream-ready phone, because with this app, you won't need setup HTC Vive or Oculus in order to do some quick test. If your computer didn't connect with any VR Device, default HMDDeviceType will be EHorizonVRHMDType::GoogleVRHMD.
 
-Note: if you connect Google Controller Emulator and other VR devices at same time, Google Controller Emulator will take over the controller.
 
+Note1: If you can't see MotionController in packaged build, please Delay about 1 second in your Game Default Map and call OpenLevel(YourMainMap), because plugin need to wait engine full initialized VR related setting in order to work properly.(Editor didn't has such limitation)
+Note2: If you connect Google Controller Emulator and other VR devices at same time, Google Controller Emulator will take over the controller.
 
 
 
@@ -42,7 +43,9 @@ Note: if you connect Google Controller Emulator and other VR devices at same tim
 
 在Editor中，若是你擁有daydream ready的手機，你也可以很方便的使用 [Google Controller Emulator](https://developers.google.com/vr/daydream/controller-emulator)來測試相關的VR互動性操作，這樣在做快速測試時，就可以減少必須HTC Vive或Oculus設置的麻煩。另外，若是電腦沒有連接到任何VR裝置，預設取得的HMDDeviceType會是EHorizonVRHMDType::GoogleVRHMD。
 
-最後必須要注意的一點是，若是在Editor中同時連接Google Controller Emulator跟其他VR裝置的話，Controller操控的優先權將會在Google Controller Emulator身上。
+附注1：若是您發現在packaged build中的MotionController消失不見，請在Game Default Map中加入大約1秒鐘的delay之後再呼叫OpenLevel(YourMainMap)，因為本plugin需要等待engine將VR相關的設置初始化完成後才有辦法正常的運作。(在Editor中不受此限制)  
+
+附注2：若是在Editor中同時連接Google Controller Emulator跟其他VR裝置的話，Controller操控的優先權將會在Google Controller Emulator身上。  
 
 
 -----------------------
