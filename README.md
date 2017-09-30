@@ -43,7 +43,7 @@ Technical Details
 Features: 
   GoogleVRController's laser and reticle feature for HTC Vive and Oculus Rift  
   Auto detect Current HMD device and spawn corresponding MotionControllerActor
-  Support following Laser Pointer callback: OnPointerEnterActorEvent, OnPointerEnterComponentEvent, OnPointerExitActorEvent, OnPointerExitComponentEvent, OnPointerHoverActorEvent, OnPointerHoverComponentEvent, OnPointerClickActorEvent, OnPointerClickComponentEvent, OnPointerPressedEvent, OnPointerReleasedEvent
+  Support Laser Pointer input callbacks: OnPointerEnterActorEvent, OnPointerEnterComponentEvent, OnPointerExitActorEvent, OnPointerExitComponentEvent, OnPointerHoverActorEvent, OnPointerHoverComponentEvent, OnPointerClickActorEvent, OnPointerClickComponentEvent, OnPointerPressedEvent, OnPointerReleasedEvent
 
 Code Modules: HorizonVR (Runtime) 
 
@@ -61,7 +61,7 @@ What does your plugin do/What is the intent of your plugin
 
 Demo Video: 
 
-This Plugin ports the functions from [GoogleVRController Plugin](https://docs.unrealengine.com/latest/INT/Platforms/GoogleVR/Daydream/) in the engine and make sure the controller  support HTC Vive, Oculus Rift, Google Daydream and other VR devices.  
+This Plugin ports the functions from [GoogleVRController Plugin](https://docs.unrealengine.com/latest/INT/Platforms/GoogleVR/Daydream/) in the engine and make sure the controller features also works in HTC Vive, Oculus Rift, Google Daydream and other VR devices.  
 
 本Plugin主要是移植了引擎中的[GoogleVRController Plugin](https://docs.unrealengine.com/latest/INT/Platforms/GoogleVR/Daydream/)，並讓其Laser與各種Pointer中的回呼機制能夠同時運行在HTC Vive、Oculus Rift、Google Daydream以及其他各種不同的VR裝置。  
 
