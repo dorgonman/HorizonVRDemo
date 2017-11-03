@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.17",
+	"EngineAssociation": "4.18",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -13,7 +13,8 @@
 	"Plugins": [
 		{
 			"Name": "HorizonVRPlugin",
-			"Enabled": true
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c3ba825901fc4cad9223b7eee6991ca0"
 		}
 	]
 }
