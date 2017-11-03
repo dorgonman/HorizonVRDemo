@@ -1,7 +1,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonVRPlugin<br>
-					4.17.0   <br>
+					4.18.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -16,7 +16,7 @@ The goal of this plugin is to provide a unified VR Character and MotionControlle
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version:  4.17
+Tested UnrealEngine version:  4.17, 4.18
 
 -----------------------
 Installation Guide
@@ -90,6 +90,9 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------  
+* 4.18.0
+NEW: Update to 4.18.0.
+
 * 4.17.0
 NEW: First Version including core features.
 
