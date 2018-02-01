@@ -1,4 +1,4 @@
-![VSTS Build status](https://horizon-studio.visualstudio.com/_apis/public/build/definitions/66d242ac-f17b-4303-9a70-ebb6a52e1525/3/badge)
+![VSTS Build Status](https://hsgame.visualstudio.com/_apis/public/build/definitions/aeaa314b-7b56-4733-89fa-67e9bccfb809/4/badge)
 
 ----------------------------------------------  
 <h2 align="center">				
