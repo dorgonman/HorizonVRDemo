@@ -1,13 +1,17 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.19",
+	"EngineAssociation": "{F2CB25CB-4CC4-398B-A4C9-4A85D35AAB35}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "HorizonVRDemo",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"HorizonVR",
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
