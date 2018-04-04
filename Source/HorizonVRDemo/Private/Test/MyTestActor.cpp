@@ -13,9 +13,16 @@ AMyTestActor::AMyTestActor()
 #if !UE_SERVER
 	MeshComponent = CreateOptionalDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
 	MeshComponent->SetupAttachment(RootComponent);
-#else
-	DoNotCreateDefaultSubobject(TEXT("MeshComponent"));
 #endif
+	
+}
+
+AMyTestActor::AMyTestActor(const FObjectInitializer& ObjectInitializer)
+#if UE_SERVER
+	: Super(ObjectInitializer.DoNotCreateDefaultSubobject(TEXT("MeshComponent")))
+#endif
+{
+
 }
 
 // Called when the game starts or when spawned
