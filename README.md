@@ -94,6 +94,7 @@ email: dorgonman@hotmail.com
 -----------------------
 * 4.19.0
 NEW: Update to 4.19.0.
+BugFix: UMG Button Hover event continuous fire in VR
 
 * 4.18.0
 NEW: Update to 4.18.0.
