@@ -3,7 +3,7 @@
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonVRPlugin<br>
-					4.19.0   <br>
+					4.20.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -18,7 +18,7 @@ The goal of this plugin is to provide a unified VR Character and MotionControlle
 System Requirements
 -----------------------  
 
-Tested UnrealEngine version:  4.17, 4.18, 4.19
+Tested UnrealEngine version:  4.17, 4.18, 4.19, 4.20
 
 -----------------------
 Installation Guide
@@ -92,6 +92,8 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------
+* 4.20.0
+	Refactor Source Folders
 * 4.19.0
 NEW: Update to 4.19.0.
 BugFix: UMG Button Hover event continuous fire in VR
