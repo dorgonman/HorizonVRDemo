@@ -1,4 +1,4 @@
-![Azure Devops](https://hsgame.visualstudio.com/_apis/public/build/definitions/aeaa314b-7b56-4733-89fa-67e9bccfb809/4/badge)
+![Azure Devops](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonVRPluginDemo-CI)
 
 public feed: nuget.org  
 
@@ -17,8 +17,8 @@ master branch may be unstable since it is in development, please switch to tags,
 ----------------------------------------------  
 How to Run Demo Project before purchase:(Only for Win64 editor build, no source code)
 1. [Download nuget executable](https://www.nuget.org/downloads) and copy the exe into C:\Windows\system32\ or any place listed in your PATH environment.
-2. Double click install_package_from_nuget.org.bat, and check if UE4Editor-*.dll are installed to Binaries\Win64 and Plugins\HorizonDialoguePlugin\Binaries\Win64\
-3. Double click HorizonDialogueDemo.uproject  
+2. Double click install_package_from_nuget.org.bat, and check if UE4Editor-*.dll are installed to Binaries\Win64 and Plugins\HorizonVRPlugin\Binaries\Win64\
+3. Double click HorizonVRDemo.uproject  
 ----------------------------------------------
 
 
