@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.20",
+	"EngineAssociation": "4.21",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -15,6 +15,10 @@
 			"Name": "HorizonVRPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c3ba825901fc4cad9223b7eee6991ca0"
+		},
+		{
+			"Name": "WindowsMixedReality",
+			"Enabled": true
 		}
 	]
 }
