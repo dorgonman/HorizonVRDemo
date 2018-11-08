@@ -115,21 +115,31 @@ email: dorgonman@hotmail.com
  Version History
 -----------------------
 
-* 4.21.0
-New: WMR Support
-BugFix: Don't show ControllerTouchPointMeshComponent if ControllerMeshComponent not visible  
+* 4.21.0  
 
-* 4.20.0
-	Refactor Source Folders
-* 4.19.0
-NEW: Update to 4.19.0.
-BugFix: UMG Button Hover event continuous fire in VR
+	New: WMR Support.  
 
-* 4.18.0
-NEW: Update to 4.18.0.
+	BugFix: Don't show ControllerTouchPointMeshComponent if ControllerMeshComponent not visible  
 
-* 4.17.0
-NEW: First Version including core features.
+* 4.20.0  
+
+	Refactor: Reorganized source Folders.
+
+* 4.19.0  
+
+	NEW: Update to 4.19.0.  
+
+	BugFix: UMG Button Hover event continuous fire in VR.  
+
+
+* 4.18.0  
+
+	NEW: Update to 4.18.0.
+
+
+* 4.17.0  
+
+	NEW: First Version including core features.
 
 
 
