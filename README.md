@@ -1,10 +1,12 @@
-<!-- ![Azure Devops](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonVRPluginDemo-CI)
+[Marketplace](https://www.unrealengine.com/marketplace/en-US/horizonvrplugin) 
+
+[![Build Status](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonVR/HorizonVRDemo-Shipping-CI?branchName=master)](https://hsgame.visualstudio.com/UE4HorizonPlugin/_build/latest?definitionId=30&branchName=master)
 
 public feed: nuget.org  
 
-[![nuget.org package in feed in ](https://img.shields.io/nuget/v/UE4Editor-HorizonVRDemo.svg)](https://www.nuget.org/packages/UE4Editor-HorizonVRDemo/)
+[![nuget.org package in feed in ](https://img.shields.io/nuget/v/HorizonVRDemo.svg)](https://www.nuget.org/packages/HorizonVRDemo/)
 
-private feed(only for internal use): 
+<!-- private feed(only for internal use): 
 
 [![Azure Artifacts package in  feed in ](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f/Packages/0d9b1514-4625-462b-82a5-3678becfcd54/Badge)](https://hsgame.visualstudio.com/_Packaging?feed=d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f&package=0d9b1514-4625-462b-82a5-3678becfcd54&preferRelease=true&_a=package) -->
 
