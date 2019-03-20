@@ -1,4 +1,4 @@
-![Azure Devops](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonVRPluginDemo-CI)
+<!-- ![Azure Devops](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonVRPluginDemo-CI)
 
 public feed: nuget.org  
 
@@ -6,26 +6,27 @@ public feed: nuget.org
 
 private feed(only for internal use): 
 
-[![Azure Artifacts package in  feed in ](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f/Packages/0d9b1514-4625-462b-82a5-3678becfcd54/Badge)](https://hsgame.visualstudio.com/_Packaging?feed=d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f&package=0d9b1514-4625-462b-82a5-3678becfcd54&preferRelease=true&_a=package)
+[![Azure Artifacts package in  feed in ](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f/Packages/0d9b1514-4625-462b-82a5-3678becfcd54/Badge)](https://hsgame.visualstudio.com/_Packaging?feed=d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f&package=0d9b1514-4625-462b-82a5-3678becfcd54&preferRelease=true&_a=package) -->
 
 Note: 
 
-master branch may be unstable since it is in development, please switch to tags, for example: release/4.21.0
+master branch may be unstable since it is in development, please switch to tags, for example: release/4.22.0
 
 
  
 ----------------------------------------------  
 How to Run Demo Project before purchase:(Only for Win64 editor build, no source code)
 1. [Download nuget executable](https://www.nuget.org/downloads) and copy the exe into C:\Windows\system32\ or any place listed in your PATH environment.
-2. Double click install_package_from_nuget.org.bat, and check if UE4Editor-*.dll are installed to Binaries\Win64 and Plugins\HorizonVRPlugin\Binaries\Win64\
-3. Double click HorizonVRDemo.uproject  
+2. Install [Git for Windows](https://gitforwindows.org/)
+3. Double click install_package_from_nuget.org.sh, and check if UE4Editor-*.dll are installed to Binaries\Win64 and Plugins\HorizonVRPlugin\Binaries\Win64\
+4. Double click HorizonVRDemo.uproject  
 ----------------------------------------------
 
 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonVRPlugin<br>
-					4.21.0   <br>
+					4.22.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -40,7 +41,7 @@ The goal of this plugin is to provide a unified VR Character and MotionControlle
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version:  4.17-4.21
+Supported UnrealEngine version:  4.17-4.22
 
 -----------------------
 Installation Guide
@@ -114,6 +115,11 @@ email: dorgonman@hotmail.com
 -----------------------
  Version History
 -----------------------
+
+* 4.22.0  
+
+	Update to 4.22  
+
 
 * 4.21.0  
 
