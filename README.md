@@ -6,9 +6,9 @@ public feed: nuget.org
 
 [![nuget.org package in feed in ](https://img.shields.io/nuget/v/HorizonVRDemo.svg)](https://www.nuget.org/packages/HorizonVRDemo/)
 
-<!-- private feed(only for internal use): 
+private feed(only for internal use): 
 
-[![Azure Artifacts package in  feed in ](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f/Packages/0d9b1514-4625-462b-82a5-3678becfcd54/Badge)](https://hsgame.visualstudio.com/_Packaging?feed=d5ed5eb7-dd62-4af0-a6a4-8862be2b9f7f&package=0d9b1514-4625-462b-82a5-3678becfcd54&preferRelease=true&_a=package) -->
+[![HorizonVRDemo package in UE4HorizonPlugin feed in Azure Artifacts](https://hsgame.feeds.visualstudio.com/_apis/public/Packaging/Feeds/319fdc64-73ff-4910-b3b8-2ee206a67a49/Packages/51480ec6-44e6-4923-bd51-e5c66b6de6c1/Badge)](https://hsgame.visualstudio.com/UE4HorizonPlugin/_packaging?_a=package&feed=319fdc64-73ff-4910-b3b8-2ee206a67a49&package=51480ec6-44e6-4923-bd51-e5c66b6de6c1&preferRelease=true)
 
 Note: 
 
