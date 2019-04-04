@@ -34,3 +34,5 @@ Saved
 /Build/WindowsClient
 /Build/WindowsNoEditor
 /Build/WindowsServer
+/.signature.p7s
+/HorizonVRDemo.nuspec

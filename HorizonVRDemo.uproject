@@ -18,7 +18,11 @@
 		},
 		{
 			"Name": "WindowsMixedReality",
-			"Enabled": true
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64"
+			]
 		}
 	]
 }
