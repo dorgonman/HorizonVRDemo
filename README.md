@@ -28,7 +28,7 @@ How to Run Demo Project before purchase:(Only for Win64 editor build, no source 
 ----------------------------------------------  
 <h2 align="center">				
 			HorizonVRPlugin<br>
-					4.22.0   <br>
+					4.23.0   <br>
 			http://dorgon.horizon-studio.net  <br>
 				dorgonman@hotmail.com  <br>
 </h2>
@@ -43,7 +43,7 @@ The goal of this plugin is to provide a unified VR Character and MotionControlle
 System Requirements
 -----------------------  
 
-Supported UnrealEngine version:  4.17-4.22
+Supported UnrealEngine version:  4.17-4.23
 
 -----------------------
 Installation Guide
