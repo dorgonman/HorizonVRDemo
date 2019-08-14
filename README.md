@@ -118,6 +118,10 @@ email: dorgonman@hotmail.com
  Version History
 -----------------------
 
+* 4.23.0  
+
+	Update to 4.23  
+
 * 4.22.0  
 
 	Update to 4.22  
