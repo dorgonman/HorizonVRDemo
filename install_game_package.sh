@@ -53,10 +53,10 @@ if [ "${installVersion}" != ' ' ]; then
     
     echo "Using current nuget pacakge from cache:"
 else
-    nugetFolder=$(ls -d -- ../Intermediate/NugetCache/* | tail -n 1)
+    nugetFolder=$(ls -ld -- ../Intermediate/NugetCache/* | tail -n 1)
     echo "Using latest nuget pacakge from cache:"
 fi
-
+echo "${nugetFolder}"
 nugetFolder=$(cd ${nugetFolder}; pwd)
 echo "${nugetFolder}"
 cmd="cp -rf ${nugetFolder}/* ${projectRoot}"
