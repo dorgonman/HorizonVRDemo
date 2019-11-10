@@ -10,5 +10,6 @@ public class HorizonVRDemoTarget : TargetRules
 		Type = TargetType.Game;
 
 		ExtraModuleNames.AddRange( new string[] { "HorizonVRDemo" } );
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 	}
 }

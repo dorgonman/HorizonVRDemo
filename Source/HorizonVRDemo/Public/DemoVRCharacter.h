@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "HorizonVRCharacter.h"
+#include "Character/HorizonVRCharacter.h"
 #include "DemoVRCharacter.generated.h"
 
 
