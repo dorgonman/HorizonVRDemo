@@ -1,0 +1,35 @@
+{
+	"name": "Default bindings for Gamepads",
+	"controller_type": "gamepad",
+	"bindings":
+	{
+		"/actions/main":
+		{
+			"sources": [
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/HorizonVR_ResetVR"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/HorizonVR_ResetVR"
+						}
+					}
+				}
+			]
+		}
+	},
+	"description": "HorizonVRDemo"
+}
