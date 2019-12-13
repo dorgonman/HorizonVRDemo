@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
 
-export FEED_NAME="nuget.org"
-./install_game_package.sh
+pushd .nuget
+    ./install_game_package_from_nuget_org.sh
+popd
