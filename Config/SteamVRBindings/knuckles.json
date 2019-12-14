@@ -1,34 +1,12 @@
 {
 	"name": "Default bindings for ValveIndex",
 	"controller_type": "knuckles",
+	"last_edited_by": "UnrealEngine",
 	"bindings":
 	{
 		"/actions/main":
 		{
-			"sources": [
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/HorizonVR_ResetVR"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/HorizonVR_ResetVR"
-						}
-					}
-				}
-			],
+			"sources": [],
 			"poses": [
 				{
 					"output": "/actions/main/in/controllerleft",
@@ -62,5 +40,5 @@
 			]
 		}
 	},
-	"description": "HorizonVRDemo"
+	"description": "HorizonVRDemo-10570792"
 }

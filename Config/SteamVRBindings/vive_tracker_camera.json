@@ -1,6 +1,7 @@
 {
 	"name": "Default bindings for Vive Trackers",
 	"controller_type": "vive_tracker_camera",
+	"last_edited_by": "UnrealEngine",
 	"bindings":
 	{
 		"/actions/main":
@@ -8,23 +9,23 @@
 			"sources": [
 				{
 					"mode": "button",
-					"path": "/user/hand/right/input/grip",
+					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/HorizonVR_ResetVR"
+							"output": "/actions/main/in/MotionController(L)_Trigger"
 						}
 					}
 				},
 				{
 					"mode": "button",
-					"path": "/user/hand/left/input/grip",
+					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/HorizonVR_ResetVR"
+							"output": "/actions/main/in/MotionController(R)_Trigger"
 						}
 					}
 				}
@@ -73,5 +74,5 @@
 			]
 		}
 	},
-	"description": "HorizonVRDemo"
+	"description": "HorizonVRDemo-10570792"
 }

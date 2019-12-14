@@ -1,6 +1,7 @@
 {
 	"name": "Default bindings for Rift Headset",
 	"controller_type": "rift",
+	"last_edited_by": "UnrealEngine",
 	"bindings":
 	{
 		"/actions/main":
@@ -8,5 +9,5 @@
 			"sources": []
 		}
 	},
-	"description": "HorizonVRDemo"
+	"description": "HorizonVRDemo-10570792"
 }
