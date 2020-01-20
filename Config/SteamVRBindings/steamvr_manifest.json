@@ -78,20 +78,12 @@
 			"requirement": "optional"
 		},
 		{
-			"name": "/actions/main/in/MotionController(L)_Trigger",
+			"name": "/actions/main/in/MotionControllerLeftTrigger",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/MotionController(R)_Trigger",
+			"name": "/actions/main/in/MotionControllerRightTrigger",
 			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/MotionController(L)_Joystick axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/MotionController(R)_Joystick axis",
-			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -144,50 +136,6 @@
 		{
 			"controller_type": "vive_tracker_camera",
 			"binding_url": "vive_tracker_camera.json"
-		},
-		{
-			"controller_type": "knuckles",
-			"binding_url": "knuckles.json"
-		},
-		{
-			"controller_type": "vive_controller",
-			"binding_url": "vive_controller.json"
-		},
-		{
-			"controller_type": "vive_cosmos_controller",
-			"binding_url": "vive_cosmos_controller.json"
-		},
-		{
-			"controller_type": "oculus_touch",
-			"binding_url": "oculus_touch.json"
-		},
-		{
-			"controller_type": "holographic_controller",
-			"binding_url": "holographic_controller.json"
-		},
-		{
-			"controller_type": "indexhmd",
-			"binding_url": "indexhmd.json"
-		},
-		{
-			"controller_type": "vive",
-			"binding_url": "vive.json"
-		},
-		{
-			"controller_type": "vive_pro",
-			"binding_url": "vive_pro.json"
-		},
-		{
-			"controller_type": "rift",
-			"binding_url": "rift.json"
-		},
-		{
-			"controller_type": "vive_tracker_camera",
-			"binding_url": "vive_tracker_camera.json"
-		},
-		{
-			"controller_type": "gamepad",
-			"binding_url": "gamepad.json"
 		}
 	],
 	"localization": [
@@ -208,10 +156,8 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/out/vibrateleft": "Haptic (Left)",
 			"/actions/main/out/vibrateright": "Haptic (Right)",
-			"/actions/main/in/MotionController(L)_Trigger": "MotionController(L)_Trigger",
-			"/actions/main/in/MotionController(R)_Trigger": "MotionController(R)_Trigger",
-			"/actions/main/in/MotionController(L)_Joystick axis": "MotionController(L)_Joystick",
-			"/actions/main/in/MotionController(R)_Joystick axis": "MotionController(R)_Joystick",
+			"/actions/main/in/MotionControllerLeftTrigger": "MotionControllerLeftTrigger",
+			"/actions/main/in/MotionControllerRightTrigger": "MotionControllerRightTrigger",
 			"/actions/main": "Main Game Actions"
 		}
 	]

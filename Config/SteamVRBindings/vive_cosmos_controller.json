@@ -14,7 +14,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/MotionController(L)_Trigger"
+							"output": "/actions/main/in/MotionControllerLeftTrigger"
 						}
 					}
 				},
@@ -25,29 +25,7 @@
 					{
 						"click":
 						{
-							"output": "/actions/main/in/MotionController(R)_Trigger"
-						}
-					}
-				},
-				{
-					"mode": "scalar_constant",
-					"path": "/user/hand/left/input/joystick",
-					"inputs":
-					{
-						"value":
-						{
-							"output": "/actions/main/in/MotionController(L)_Joystick axis"
-						}
-					}
-				},
-				{
-					"mode": "scalar_constant",
-					"path": "/user/hand/right/input/joystick",
-					"inputs":
-					{
-						"value":
-						{
-							"output": "/actions/main/in/MotionController(R)_Joystick axis"
+							"output": "/actions/main/in/MotionControllerRightTrigger"
 						}
 					}
 				}
@@ -85,5 +63,5 @@
 			]
 		}
 	},
-	"description": "HorizonVRDemo-10570792"
+	"description": "HorizonVRDemo-10757647"
 }

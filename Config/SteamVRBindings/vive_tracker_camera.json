@@ -6,30 +6,7 @@
 	{
 		"/actions/main":
 		{
-			"sources": [
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/MotionController(L)_Trigger"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/MotionController(R)_Trigger"
-						}
-					}
-				}
-			],
+			"sources": [],
 			"poses": [
 				{
 					"output": "/actions/main/in/special1",
@@ -74,5 +51,5 @@
 			]
 		}
 	},
-	"description": "HorizonVRDemo-10570792"
+	"description": "HorizonVRDemo-10757647"
 }
