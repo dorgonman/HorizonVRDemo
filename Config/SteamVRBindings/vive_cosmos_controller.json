@@ -20,17 +20,6 @@
 				},
 				{
 					"mode": "joystick",
-					"path": "/user/hand/left/input/joystick",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Gamepad_LeftThumbstick"
-						}
-					}
-				},
-				{
-					"mode": "joystick",
 					"path": "/user/hand/right/input/joystick",
 					"inputs":
 					{
@@ -92,6 +81,28 @@
 						"click":
 						{
 							"output": "/actions/main/in/Gamepad_RightTrigger"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/left/input/joystick",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/Trackpad_LeftTouch"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/Trackpad_RightTouch"
 						}
 					}
 				},

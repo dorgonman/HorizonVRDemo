@@ -161,6 +161,28 @@
 					}
 				},
 				{
+					"mode": "trackpad",
+					"path": "/user/hand/left/input/trackpad",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/Trackpad_LeftTouch"
+						}
+					}
+				},
+				{
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
+					"inputs":
+					{
+						"touch":
+						{
+							"output": "/actions/main/in/Trackpad_RightTouch"
+						}
+					}
+				},
+				{
 					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":

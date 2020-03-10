@@ -118,6 +118,14 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Trackpad_LeftTouch",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_RightTouch",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/Gamepad_LeftX axis",
 			"type": "vector1"
 		},
@@ -258,6 +266,8 @@
 			"/actions/main/in/Gamepad_FaceButton_Top": "Gamepad_FaceButton_Top",
 			"/actions/main/in/Gamepad_LeftTrigger": "Gamepad_LeftTrigger",
 			"/actions/main/in/Gamepad_RightTrigger": "Gamepad_RightTrigger",
+			"/actions/main/in/Trackpad_LeftTouch": "Trackpad_LeftTouch",
+			"/actions/main/in/Trackpad_RightTouch": "Trackpad_RightTouch",
 			"/actions/main/in/Gamepad_LeftX axis": "Gamepad_LeftX",
 			"/actions/main/in/Gamepad_RightX axis": "Gamepad_RightX",
 			"/actions/main/in/Gamepad_LeftTriggerAxis axis": "Gamepad_LeftTriggerAxis",
