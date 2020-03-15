@@ -118,9 +118,10 @@ email: dorgonman@hotmail.com
  Version History
 -----------------------
 
-*4.24.0 
+*4.25.0 
 
-	Update to 4.25 
+	[New] Implement SteamVR supported controller(ViveCosmos, Knukles and Holographic) and refactor controller and HMD detect method(
+		Important Note: This is breaking change about how to use this plugin.
 
 *4.24.0 
 

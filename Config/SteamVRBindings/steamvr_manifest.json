@@ -126,20 +126,44 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/Gamepad_LeftX axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/Gamepad_RightX axis",
-			"type": "vector1"
-		},
-		{
 			"name": "/actions/main/in/Gamepad_LeftTriggerAxis axis",
 			"type": "vector1"
 		},
 		{
 			"name": "/actions/main/in/Gamepad_RightTriggerAxis axis",
 			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Left_Cosmos,Trackpad_Left_Cosmos X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Right_Cosmos,Trackpad_Right_Cosmos X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Left_WMR,Trackpad_Left_WMR X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Right_WMR,Trackpad_Right_WMR X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Left_Index,Trackpad_Left_Index X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Right_Index,Trackpad_Right_Index X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Left_Vive,Trackpad_Left_Vive X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/Trackpad_Right_Vive,Trackpad_Right_Vive X Y_axis2d",
+			"type": "vector2"
 		}
 	],
 	"action_sets": [
@@ -268,10 +292,16 @@
 			"/actions/main/in/Gamepad_RightTrigger": "Gamepad_RightTrigger",
 			"/actions/main/in/Trackpad_LeftTouch": "Trackpad_LeftTouch",
 			"/actions/main/in/Trackpad_RightTouch": "Trackpad_RightTouch",
-			"/actions/main/in/Gamepad_LeftX axis": "Gamepad_LeftX",
-			"/actions/main/in/Gamepad_RightX axis": "Gamepad_RightX",
 			"/actions/main/in/Gamepad_LeftTriggerAxis axis": "Gamepad_LeftTriggerAxis",
 			"/actions/main/in/Gamepad_RightTriggerAxis axis": "Gamepad_RightTriggerAxis",
+			"/actions/main/in/Trackpad_Left_Cosmos,Trackpad_Left_Cosmos X Y_axis2d": "Trackpad_Left_Cosmos",
+			"/actions/main/in/Trackpad_Right_Cosmos,Trackpad_Right_Cosmos X Y_axis2d": "Trackpad_Right_Cosmos",
+			"/actions/main/in/Trackpad_Left_WMR,Trackpad_Left_WMR X Y_axis2d": "Trackpad_Left_WMR",
+			"/actions/main/in/Trackpad_Right_WMR,Trackpad_Right_WMR X Y_axis2d": "Trackpad_Right_WMR",
+			"/actions/main/in/Trackpad_Left_Index,Trackpad_Left_Index X Y_axis2d": "Trackpad_Left_Index",
+			"/actions/main/in/Trackpad_Right_Index,Trackpad_Right_Index X Y_axis2d": "Trackpad_Right_Index",
+			"/actions/main/in/Trackpad_Left_Vive,Trackpad_Left_Vive X Y_axis2d": "Trackpad_Left_Vive",
+			"/actions/main/in/Trackpad_Right_Vive,Trackpad_Right_Vive X Y_axis2d": "Trackpad_Right_Vive",
 			"/actions/main": "Main Game Actions"
 		}
 	]

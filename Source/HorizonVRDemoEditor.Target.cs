@@ -11,6 +11,7 @@ public class HorizonVRDemoEditorTarget : TargetRules
 
 		ExtraModuleNames.AddRange( new string[] { "HorizonVRDemo" } );
 		DefaultBuildSettings = BuildSettingsVersion.V2;
+        ShadowVariableWarningLevel = WarningLevel.Error;
         // StrictIncludes for Plugin Demo Build to check if all source files have self-contained headers
         // -NoPCH -NoSharedPCH -DisableUnity
         {
