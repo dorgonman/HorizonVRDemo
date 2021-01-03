@@ -1,6 +1,6 @@
 [Marketplace](https://www.unrealengine.com/marketplace/en-US/horizonvrplugin) 
 
-[![Build Status](https://hsgame.visualstudio.com/UE4HorizonPlugin/_apis/build/status/HorizonVR/HorizonVRDemo-Shipping-CI?branchName=master)](https://hsgame.visualstudio.com/UE4HorizonPlugin/_build/latest?definitionId=30&branchName=master)
+[![Build Status](https://dev.azure.com/hsgame/UE4HorizonPlugin/_apis/build/status/HorizonVR/HorizonVRDemo-Shipping-CI?repoName=HorizonVRDemo&branchName=main)](https://dev.azure.com/hsgame/UE4HorizonPlugin/_build/latest?definitionId=30&repoName=HorizonVRDemo&branchName=main)
 
 public feed: nuget.org  
 
