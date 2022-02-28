@@ -2,15 +2,15 @@
 	"source": "UE",
 	"applications": [
 		{
-			"app_key": "application.generated.ue.horizonvrdemo-12055273.ue4editor-win64-debuggame.exe",
+			"app_key": "application.generated.ue.horizonvrdemo-19044958.unrealeditor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "F:/work/UE4HorizonPlugin/HorizonVRDemo/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "D:/_work/Horizon/HorizonVRDemo/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":
 				{
-					"name": "HorizonVRDemo-12055273 [UE Editor]"
+					"name": "HorizonVRDemo-19044958 [UE Editor]"
 				}
 			}
 		}
